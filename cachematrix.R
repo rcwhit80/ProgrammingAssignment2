@@ -9,6 +9,7 @@
 ## object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
+    ##this creates the list of functions
     ivr <- NULL
     set <- function(y) {
         x <<- y
